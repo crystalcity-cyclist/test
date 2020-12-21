@@ -5,5 +5,12 @@
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
 
+  <div id="Rome" class="tabcontent">
+  <h3>Keywords</h3>
+  <p>The dataset includes a column of keywords extracted from the transcripts; these are not the same for every row. Using a simple count vectorizer technique, I extracted the list of keywords and their frequency across each medical specialty. I also eliminated any keywords that were the same as the specialty itself -- for example, "surgery" was the most common word in the "Surgery" specialty. The top 10 keywords for the surgery specialty are shown in the graphic below. Of these, "artery" appears over 150 times. These words are a good indicator of the topics that I would extract from the transcripts using LDA.</p>
+  <iframe src="keywords.html" width="100%" height="950" style="border:1px solid black;">
+  </iframe>
+</div>
+  
 </body>
 </html>
